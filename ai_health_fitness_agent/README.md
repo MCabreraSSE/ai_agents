@@ -37,8 +37,8 @@ Before anything else, Please get a free Gemini API Key provided by Google AI her
 
 1. **Clone the Repository**:
    ```bash
-   git clone https://github.com/Shubhamsaboo/awesome-llm-apps.git
-   cd awesome-llm-apps/ai_agent_tutorials/ai_health_fitness_agent
+    git clone https://github.com/MCabreraSSE/ai_agents.git
+    cd ai_agents/web_scrapping_ai_agent/    
    ```
 
 2. **Install the dependencies**
@@ -47,4 +47,4 @@ Before anything else, Please get a free Gemini API Key provided by Google AI her
     ```
 3. **Run the Streamlit app**
     ```bash
-    streamlit run ai_health-fitness_agent/health_agent.py
+    streamlit run health_agent.py
