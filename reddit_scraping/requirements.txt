@@ -1,0 +1,4 @@
+praw
+streamlit==1.32.0
+googletrans
+python-dotenv
