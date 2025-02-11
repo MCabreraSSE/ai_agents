@@ -5,7 +5,7 @@ import streamlit as st
 from agno.models.openai import OpenAIChat
 
 # Set up the Streamlit app
-st.title("AI Travel Planner ✈️")
+st.title("Asistente de Viajes con IA ✈️")
 st.caption("Plan your next adventure with AI Travel Planner by researching and planning a personalized itinerary on autopilot using GPT-4o")
 
 # Get OpenAI API key from user
