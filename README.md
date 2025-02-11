@@ -64,8 +64,8 @@ A continuación se presenta un diagrama de bloques que ilustra las posibles inte
 
 ```mermaid
 graph TD
-    A[Análisis de Datos y Visualización] --> B[Finanzas]
-    A --> C[Salud y Bienestar]
+    A[Orquestador] --> B[Laboral]
+    A --> C[Personal]
     B --> D[Soporte y Servicios]
     B --> E[Recursos Humanos y Reclutamiento]
     C --> F[Generación de Contenido]
