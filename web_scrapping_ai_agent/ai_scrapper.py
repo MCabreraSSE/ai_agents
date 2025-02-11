@@ -3,7 +3,7 @@ import streamlit as st
 from scrapegraphai.graphs import SmartScraperGraph
 
 # Set up the Streamlit app
-st.title("Web Scrapping AI Agent 🕵️‍♂️")
+st.title("Agente de IA para Web Scraping 🕵️‍♂️")
 st.caption("This app allows you to scrape a website using OpenAI API")
 
 # Get OpenAI API key from user
