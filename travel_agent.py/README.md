@@ -1,10 +1,10 @@
-## 🛫 AI Travel Agent
-This Streamlit app is an AI-powered travel Agent that generates personalized travel itineraries using OpenAI GPT-4o. It automates the process of researching, planning, and organizing your dream vacation, allowing you to explore exciting destinations with ease.
+## 🛫 Asistente de Viajes con IA
+Esta aplicación de Streamlit es un Asistente de Viajes impulsado por IA que genera itinerarios de viaje personalizados utilizando OpenAI GPT-4. Automatiza el proceso de investigación, planificación y organización de tus vacaciones soñadas, permitiéndote explorar destinos emocionantes con facilidad.
 
 ### Features
-- Research and discover exciting travel destinations, activities, and accommodations
-- Customize your itinerary based on the number of days you want to travel
-- Utilize the power of GPT-4o to generate intelligent and personalized travel plans
+- Investiga y descubre destinos de viaje, actividades y alojamientos emocionantes.
+- Personaliza tu itinerario según el número de días que desees viajar.
+- Utiliza el poder de GPT-4 para generar planes de viaje inteligentes y personalizados.
 
 ### How to get Started?
 
@@ -31,7 +31,6 @@ streamlit run travel_agent.py
 ```
 
 ### How it Works?
-
-The AI Travel Agent has two main components:
-- Researcher: Responsible for generating search terms based on the user's destination and travel duration, and searching the web for relevant activities and accommodations using SerpAPI.
-- Planner: Takes the research results and user preferences to generate a personalized draft itinerary that includes suggested activiti
+El Asistente de Viajes con IA tiene dos componentes principales:
+- Investigador: Es responsable de generar términos de búsqueda en función del destino del usuario y la duración del viaje, y de buscar en la web actividades y alojamientos relevantes utilizando SerpAPI.
+- Planificador: Toma los resultados de la investigación y las preferencias del usuario para generar un itinerario preliminar personalizado que incluye actividades sugeridas.
