@@ -1,0 +1,28 @@
+{
+  "rules": [
+    {
+      "name": "Enforce Modular Design",
+      "description": "Ensure that the agent's logic is divided into separate modules for handling prompts, LLM calls, and response parsing.",
+      "pattern": ".*",
+      "replacement": "Ensure all agent logic is modularized and separated into distinct Python files or classes."
+    },
+    {
+      "name": "Validate API Calls",
+      "description": "Verify that all calls to Ollama's API follow the correct format and include necessary parameters.",
+      "pattern": ".*ollama.*",
+      "replacement": "Ensure all API calls to Ollama contain a valid model name, input prompt, and required configuration parameters."
+    },
+    {
+      "name": "Ensure Logging",
+      "description": "Implement logging for each interaction with the LLM to facilitate debugging and monitoring.",
+      "pattern": ".*",
+      "replacement": "Ensure that each function making an API call to Ollama logs the request and response appropriately."
+    },
+    {
+      "name": "Error Handling",
+      "description": "Ensure robust error handling for all interactions with Ollama, including API failures and invalid responses.",
+      "pattern": ".*",
+      "replacement": "Implement try-except blocks around all calls to Ollama and log errors appropriately."
+    }
+  ]
+}
